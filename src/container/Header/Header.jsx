@@ -4,6 +4,9 @@ import { motion } from "framer-motion"
 import { AppWrap } from "../../wrapper"
 import { images } from "../../constants"
 import "./Header.scss"
+import { NavLink } from "react-router-dom";
+
+import ArticleIcon from '@mui/icons-material/Article';
 
 const scaleVariants = {
   whileInView: {
@@ -32,11 +35,20 @@ const Header = () => (
             <h1 className="head-textChinese">陈林枫</h1>
           </div>
         </div>
-
+   
+        <div> 
+         
+        </div>
+       
         <div className="tag-cmp app__flex">
           <p className="p-text">Web Developer</p>
           <p className="p-text">Fontend Engineer</p>
           <p className="p-text">Software Engineer</p>
+        </div>
+        
+        <div className="tag-cmp app__flex">
+          <p className="p-text">Resume Here</p>
+          <NavLink to={images.resume} download target="_blank"><ArticleIcon   fontSize="large"></ArticleIcon></NavLink>
         </div>
       </div>
     </motion.div>

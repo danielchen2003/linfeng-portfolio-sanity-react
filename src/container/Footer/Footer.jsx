@@ -4,6 +4,9 @@ import { images } from "../../constants"
 import { AppWrap, MotionWrap } from "../../wrapper"
 import { client } from "../../client"
 import "./Footer.scss"
+import { NavLink } from "react-router-dom";
+import ArticleIcon from '@mui/icons-material/Article';
+
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" })
@@ -42,17 +45,24 @@ const Footer = () => {
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
-          <a href="ku2003ku@gmail.com" className="p-text">
-            ku2003ku@gmail.com
+          <img src={images.email} alt="email" target="_blank" />
+          <a href="linfengchen8888@gmail.com" className="p-text">
+          linfengchen8888@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
+          <img src={images.mobile} alt="phone"  />
           <a href="tel:+1 (714) 707-8857" className="p-text">
             +1 (714) 707-8857
           </a>
         </div>
+        <div className="app__footer-card">
+            
+          <NavLink to={images.resume} download target="_blank"><ArticleIcon  fontSize="large"></ArticleIcon>Download Resume</NavLink>
+          
+        </div>
+        
+
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
