@@ -27,13 +27,7 @@ const Aboutme = () => {
             leadership to resolve customer concerns.
           </p>
           <p>
-            I am a person who has a strong passion to learn new technologies.
-            During my studies in per scholas boot camp, I refined my skills in
-            problem-sloving teamworks and time-mangements, self-movtivation. I
-            will granduate at this September pussure career in fontend enginerr.
-            I 'm grateful for the opportunity in the chance to apply my
-            knowledge and expereance to the real world situation as well as
-            learn more about software development career field.
+          I am a person who has a strong passion to learn new technologies. During my studies in per scholars boot camp, I refined my skills in problem-solving teamwork and time-management, self-motivation. I will graduate at this September pressure career in front-end engineer. I'm grateful for the opportunity in the chance to apply my knowledge and experience to real-world situations as well as learn more about the software development career field.
           </p>
 
           <img
@@ -52,8 +46,4 @@ const Aboutme = () => {
   )
 }
 
-export default AppWrap(
-  MotionWrap(Aboutme, "app__aboutme"),
-  "aboutme",
-  "app__whitebg"
-)
+export default MotionWrap(Aboutme, "app__aboutme")

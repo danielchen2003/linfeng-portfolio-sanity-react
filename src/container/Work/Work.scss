@@ -19,6 +19,7 @@
     background-color: #fff;
     color: #000;
     font-weight: 800;
+    
 
     cursor: pointer;
     transition: all 0.3s ease;
@@ -44,8 +45,10 @@
 .app__work-portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: flex-start;
+  width: 100%;
+  // grid-template-columns: repeat(3,minmax(300px,1fr));
 
   .app__work-item {
     justify-content: flex-start;
@@ -58,8 +61,8 @@
     border-radius: 0.5rem;
     background-color: #fff;
     color: #000;
-    flex: 1; /* additionally, equal width */
-
+    // flex: 1 ; /* additionally, equal width */
+    flex: 0 1 auto;
     min-height: 600px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -75,6 +78,10 @@
     }
 
     @media screen and (max-width: 300px) {
+      .app__work-portfolio{
+        grid-template-columns: 1fr;
+      }
+    
       width: 100%;
       margin: 1rem;
     }
@@ -158,3 +165,4 @@
     top: -25px;
   }
 }
+
