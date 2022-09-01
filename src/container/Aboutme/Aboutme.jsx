@@ -19,15 +19,15 @@ const Aboutme = () => {
             himself in the 3rd person.
           </p>
           <p>
-            I graduate from a high intensive, four month, project-based,
+          I graduated from a highly intensive, four-month, project-based,
             accredited software engineering full-time program, with a focus on
-            programing languages such as React, JavaScript, mongoDB, HTML and
+            programming languages such as React, JavaScript, MongoDB, HTML and
             CSS. Completed projects on Pokémon Go, Space Battle Game, and Recipe
             Web-App. Ability to apply 4 years of restaurant managerial
             leadership to resolve customer concerns.
           </p>
           <p>
-          I am a person who has a strong passion to learn new technologies. During my studies in per scholars boot camp, I refined my skills in problem-solving teamwork and time-management, self-motivation. I will graduate at this September pressure career in front-end engineer. I'm grateful for the opportunity in the chance to apply my knowledge and experience to real-world situations as well as learn more about the software development career field.
+          I am a person who has a strong passion to learn new technologies. During my studies in per scholars boot camp, I refined my skills in problem-solving teamwork and time-management, self-motivation. I will graduate on this September pressure career in front-end engineer. I'm grateful for the opportunity in the chance to apply my knowledge and experience to real-world situations as well as learn more about the software development career field.
           </p>
 
           <img
